@@ -1,0 +1,37 @@
+{
+  "name": "solana-sniper-bot",
+  "version": "2.0.0",
+  "description": "High-speed Solana memecoin sniper — pump.fun launches, RugCheck filtering, Jito bundle support, Telegram alerts",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "paper": "node src/index.js --paper",
+    "test": "node src/test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "@solana/spl-token": "^0.4.9",
+    "axios": "^1.7.9",
+    "bs58": "^6.0.0",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.66.0",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "keywords": [
+    "solana",
+    "memecoin",
+    "sniper",
+    "pump.fun",
+    "trading-bot",
+    "jito",
+    "rugcheck"
+  ],
+  "author": "GLo",
+  "license": "MIT"
+}
